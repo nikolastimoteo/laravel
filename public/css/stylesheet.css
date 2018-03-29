@@ -1,0 +1,15 @@
+/*
+* Redefinindo o estilo global dos navegadores
+* para que todos se comportem da mesma forma
+*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+           -box-sizing: border-box;
+}
